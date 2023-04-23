@@ -1,0 +1,53 @@
+/* Complete the CSS styling according to the provided design */
+@import url('https://fonts.googleapis.com/css2?family=Sigmar&family=VT323&display=swap');
+/*Photo credits to: Amanda Joe (https://unsplash.com/photos/P787-xixGio?utm_source=unsplash&utm_medium=referral&utm_content=creditShareLink) */
+
+body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', Arial, sans-serif;
+    background-image: url("casino4.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    font-weight: bold;
+    color: white;
+    text-align: center;
+
+}
+
+h1 {
+    color: goldenrod;
+    font-family: 'Sigmar', cursive;
+    letter-spacing: 2px;
+}
+
+.box{
+    background: #327059;
+    padding: 10px;
+    width: 40%;
+    margin: auto;
+    margin-top: 80px;
+    border-radius: 10px;
+    border: solid 5px #0e1a14;
+
+}
+#message-el {
+    font-style: italic;
+    font-weight: bold;
+}
+button {
+    color: #327059;
+    width: 150px;
+    background: goldenrod;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-weight: bold;
+    border: none;
+    border-radius: 2px;
+    margin-bottom: 2px;
+    margin-top: 2px;
+    cursor: pointer;
+}
+button:hover{
+    color: whitesmoke;
+    background: #0e1a14 ;
+}
